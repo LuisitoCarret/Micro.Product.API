@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     env: 
       #Solo el nombre del .csproj, porque el repo ya esta "en" la carpeta correcta
-      PROYECTO: Micro.Product.API.csproj
+      PROYECTO: Micro.Product.API/Micro.Product.API.csproj
 
     steps:
       - name: Checkout
